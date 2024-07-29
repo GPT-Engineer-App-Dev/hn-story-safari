@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Ant, Leaf, Users, Zap } from "lucide-react";
+import { Leaf, Users, Zap } from "lucide-react";
 
 const Index = () => {
   return (
@@ -27,7 +27,6 @@ const Index = () => {
           <h2 className="text-2xl font-semibold mb-4">Ant Facts</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             <FactCard
-              icon={<Ant className="h-6 w-6" />}
               title="Species"
               description="There are over 12,000 known species of ants worldwide."
             />
